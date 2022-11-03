@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color:maroon;
+    color:white
+    
+}
+
+img{
+
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+
+
