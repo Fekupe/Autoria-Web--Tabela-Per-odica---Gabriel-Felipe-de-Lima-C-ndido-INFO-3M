@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="olimpestilo.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="olympic-games.png" alt="" />
+      <h2 class="titulo">Olimpiadas News</h2>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <div class="menu">
+          <li><a href="/">Página Inicial</a></li>
+          <li><a href="/">Sobre</a></li>
+          <li class="services">
+            <a href="/">Informações</a>
+
+            <ul class="dropdown">
+              <li><a href="/">Medalhas </a></li>
+              <li><a href="/">Atletas</a></li>
+              <li><a href="/">Modalidades</a></li>
+              <li><a href="/">Recordes</a></li>
+              <li><a href="/">Locais</a></li>
+            </ul>
+          </li>
+          <li><a href="/">Contato</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <section>
+      <h2>HTML Forms</h2>
+
+      <form action="" method="get">
+        <label for="manchete">Titulo:</label>>
+        <input type="text" id="manchete" name="manchete" />
+
+        <label for="imagem">Imagem</label>
+        <input type="file" name="imagem" id="imagem" accept=".png .jpg" />
+
+        <label for="noticia">Titulo:</label>>
+        <textarea name="noticia" id="noticia" cols="30" rows="10"></textarea>
+      </form>
+    </section>
+
+    <footer>Tokyo 2020 - © All rights reserved</footer>
+  </body>
+</html>
