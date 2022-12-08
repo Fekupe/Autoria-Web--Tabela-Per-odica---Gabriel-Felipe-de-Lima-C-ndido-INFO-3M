@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olimpiada News</title> <link rel="stylesheet" href="olimpestilo.css">
-</head>
-<body>
-    <header><h1>Olimpíadas News</h1>
-    <img class="logo" src="olympic-games.png" alt="">
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olimpiada News</title>
+    <link rel="stylesheet" href="olimpestilo.css" />
+  </head>
+  <body>
+    <!--<header>
+      <h1>Olimpíadas News</h1>
+      <img src="olympic-games.png" alt="" />
+    </header>-->
+    <nav class="navbar">
+      <img src="olympic-games.png" alt="" />
+      <h2 class="titulo">Olimpiadas News</h2>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <div class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li class="services">
+            <a href="/">Services</a>
+
+            <ul class="dropdown">
+              <li><a href="/">Dropdown 1 </a></li>
+              <li><a href="/">Dropdown 2</a></li>
+              <li><a href="/">Dropdown 2</a></li>
+              <li><a href="/">Dropdown 3</a></li>
+              <li><a href="/">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="/">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+
     <!--
     <article>
         <h3>Rebeca salta par a história</h3>
@@ -121,8 +149,5 @@ apenas por japonesa.
     </article> -->
 
     <footer>Tokyo 2020 - © All rights reserved</footer>
-
-    
-
-</body>
+  </body>
 </html>
